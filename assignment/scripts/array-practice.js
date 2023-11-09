@@ -51,7 +51,7 @@ console.log('Of this list of animals:', animalArray, ', the last animal is:', la
 // 3.c. (STRETCH) TODO: Refactor 3.b to use the `animalArray` variable's .length 
 //       property, rather than the exact (hardcoded) index number of the last item.
 lastAnimal = animalArray[animalArray.length - 1];
-
+console.log(lastAnimal);
 
 // Adding & Removing Array Items
 console.log('--- 4. Adding and removing array items ---');
@@ -123,11 +123,11 @@ console.log(gems);
 
 // 5.b (STRETCH) TODO: Sort your gems array in reverse alphabetical order.
 //     Please console.log the sorted array.
-// Topaz, Tanzanite, Iolite, Emerald, Diamond, Citrine
+
 // https://www.w3schools.com/jsref/jsref_sort.asp is where I found the sorting method.
 gems.sort();
 gems.reverse();
-console.log(gems);
+console.log('Sorted:', gems);
 
 
 // 5.c (STRETCH) TODO: Create a variable `gemString` and assign it a string value
@@ -137,6 +137,7 @@ console.log(gems);
 //       "Emerald and Diamond and Tourmaline and Topaz"
 //     🔥 You'll need to research the .join Array method. 🔥
 //     Don't forget to console.log `gemString`...
+
 // Researched this method on https://www.w3schools.com/jsref/jsref_join.asp
 let gemString = gems.join(' and ');
 console.log('gemString:', gemString);
